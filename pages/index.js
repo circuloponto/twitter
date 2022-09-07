@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
 //import Image from 'next/image'
 
@@ -18,7 +19,7 @@ export default function Home() {
 
 
         {/* Feed */}
-
+        <Feed />
 
         {/* Widgets */}
 
